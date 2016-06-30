@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css\weather.css" media="screen" charset="utf-8">
+    <script src="bower_components\jquery\dist\jquery.min.js" charset="utf-8"></script>
+    <script src="js\weather.js" charset="utf-8"></script>
+
+  </head>
+
+  <body>
+    <div id="main_box" class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Weather</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <form class="form-horizontal">
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="enterZip" placeholder="Enter Zip">
+                </div>
+                <button type="button" id = "addItem" class="btn btn-success zipSubmit">Go!</button>
+              </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8">
+          <div class="panel panel-default ">
+  <div class="panel-body display_weather">
+  
+  </div>
+</div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+
+  </div>
+
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,10 @@
+#main_box{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.display_weather{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
